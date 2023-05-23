@@ -53,7 +53,7 @@ function createTask() {
   // to the server:
   $.ajax({
     method: 'POST',
-    url: '/task',
+    url: '/tasks',
     data: { 
       todo_text: newTask,
       is_done: false
